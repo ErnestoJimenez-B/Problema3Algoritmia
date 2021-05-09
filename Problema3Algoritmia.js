@@ -12,3 +12,9 @@ function Problema3(){
   if(lnLargo > lnMayor){
   lnMayor = lnLargo;
   lsMayor = lsSalida;
+  }
+    }
+  document.querySelector("#p3-output").textContent = "Palabra con mas caracteres unicos: " + lsMayor;
+  }
+  function Conteo(elemento){
+    var Diccionario = new Diccionario();
